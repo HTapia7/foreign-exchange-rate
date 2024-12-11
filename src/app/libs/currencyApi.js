@@ -14,3 +14,6 @@ export async function latestCurrency() {
     console.error("Error fetching the latest currency rates:", error.message);
   }
 }
+
+// GET https://v6.exchangerate-api.com/v6/YOUR-API-KEY/pair/EUR/GBP
+
