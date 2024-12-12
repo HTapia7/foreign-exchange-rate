@@ -19,7 +19,7 @@ export async function latestCurrency() {
 
 export async function twoCurrency() {
   try {
-    const response = await axios(`${BASE_URL}${API_KEY}/pair/EUR/GBP`)
+    const response = await axios(`${BASE_URL}${API_KEY}/pair/USD/EUR`)
     const data = response.data
     return data
     
