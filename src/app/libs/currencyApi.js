@@ -13,9 +13,7 @@ export async function latestCurrency() {
   } catch (error) {
     console.error("Error fetching the latest currency rates:", error.message);
   }
-}
-
-// GET https://v6.exchangerate-api.com/v6/YOUR-API-KEY/pair/EUR/GBP
+};
 
 export async function twoCurrency() {
   try {
@@ -27,4 +25,4 @@ export async function twoCurrency() {
     console.error("Error fetching the latest currency rates:", error.message);
 
   }
-}
+};

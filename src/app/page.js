@@ -1,9 +1,9 @@
-import CurrencyList from "./components/currencyList.jsx";
+import Forms from "./components/form.jsx"
 
 export default function Home() {
   return (
     <div>
-      <CurrencyList />
+      <Forms/>
     </div>
   );
 }
