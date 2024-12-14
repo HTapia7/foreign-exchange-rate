@@ -1,3 +1,5 @@
+import currencies from "../data/currencies.json";
+
 const CurrencyConverterForm = () => {
   return (
     <div className="flex items-center justify-center min-h-screen bg-gray-100">
@@ -37,10 +39,11 @@ const CurrencyConverterForm = () => {
               <option value="" disabled selected>
                 Select currency
               </option>
-              <option value="USD">USD</option>
-              <option value="EUR">EUR</option>
-              <option value="GBP">GBP</option>
-              <option value="JPY">JPY</option>
+              {currencies.map((currency) => (
+                <option key={currency} value={currency}>
+                  {currency}
+                </option>
+              ))}
             </select>
           </div>
 
@@ -59,15 +62,15 @@ const CurrencyConverterForm = () => {
               <option value="" disabled selected>
                 Select currency
               </option>
-              <option value="USD">USD</option>
-              <option value="EUR">EUR</option>
-              <option value="GBP">GBP</option>
-              <option value="JPY">JPY</option>
+              {currencies.map((currency) => (
+                <option key={currency} value={currency}>
+                  {currency}
+                </option>
+              ))}
             </select>
           </div>
         </div>
 
-        
         <div className="mt-10">
           <button
             type="submit"
