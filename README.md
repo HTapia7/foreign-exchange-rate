@@ -2,7 +2,8 @@
 
 A simple and easy-to-use foreign exchange currency application for your traveling needs.  
 
-![Project Preview](./src/app/asset/Screenshot%202024-12-14%20at%208.28.38 PM.png)  
+<img src="./src/app/asset/Screenshot%202024-12-14%20at%208.28.38 PM.png" alt="Application Screenshot" width="500"/>
+
 
 ## Table of Contents  
 
