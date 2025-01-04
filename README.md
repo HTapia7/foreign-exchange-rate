@@ -23,4 +23,19 @@ A simple and easy-to-use foreign exchange currency application for your travelin
    API_KEY=your_api_key
 4. Start development :  
    ```bash  
-   npm run dev 
+   npm run dev
+## Usage
+
+1. After installation, open the project in your browser at http://localhost:3000.
+
+2. Use the application to check live exchange rates for different currencies.
+
+## Technologies Used
+
+- Framework: Next.js
+- Language: JavaScript
+- Styling: Tailwind CSS
+
+## License  
+
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).  
